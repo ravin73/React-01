@@ -1,0 +1,14 @@
+{
+  "name": "react-01",
+  "version": "1.0.0",
+  "description": "this is the basic react project food delivery application",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "ravin",
+  "license": "ISC"
+}
