@@ -39,3 +39,24 @@ SWC	     🚀🚀🚀	            🚀🚀🚀	         Large projects with Type
 Vite	 🚀🚀🚀	           🚀🚀	              Framework-based apps (React, Vue, etc.)
 Parcel	 🚀🚀              🚀🚀	              Zero-config setups
 Rollup	 🚀	               🚀🚀🚀	          Libraries needing optimal tree-shaking
+
+
+
+Component Composition - When one or more components are together render inside another component then it is known as component composition
+
+Props- Just like normal argurment in the function.
+example: <RestaurantCard resName='props' cuisines='another props'>
+where resName and cuisines are props so pass it like a normal js arguments in the components.and also pass props in the component and use it props.resName and props.cuisines and also destructuring them like const {resName,cuisines}=props these 3 methods we can use these props .
+
+key in map - Not using keys (not acceptable) <<<< index as a key <<<< unique id(best practice) in general way
+
+
+export/import  is of two types: 1. Default Exports/import Example: const App=()=>{}; export default App; in this we can import : import App from App;
+                                2. Name Export/import  Example: export const App=()=>{}; in this we can import like this: import {App} from "./file";
+Another thing is module cannnot have multiple default exports
+
+#React Hooks -(Normal utility JS functions)
+-useState() - It is a state variable because it maintain the state of the components
+  Normal Js variable - list listofRestaurants    ,Local State Variable-const [listofRestaurants]=useState();
+  Whenever state variable is updating/changing react rerenders the components
+-useEffect()

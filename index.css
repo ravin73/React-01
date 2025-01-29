@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 180px;
+    
+}
+
+.nav-items > ul{
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+.nav-items >ul>li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.filter-btn{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.res-card {
+    width: 250px;
+    background-color: #b7b2b2;
+    border-radius: 20px;
+    margin: 20px;
+}  
+
+
+
+.res-card h3{
+    text-align: center;
+    color: seagreen;
+}
+.res-card:hover{
+    border:1px solid black;
+    cursor: pointer;
+}
+.res-card h4{
+    text-align: center;
+}
+.res-info{
+    padding-bottom: 2px;
+}
+
+.res-logo{
+    width: 220px;
+    padding:15px;
+    border-radius: 25px 25px 0 0;
+}
+.resto-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+

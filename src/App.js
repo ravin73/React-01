@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Header from './components/Header';
+import Body from './components/Body';
 // const heading = React.createElement("div", { id: "parent" }, [
 //     React.createElement("div",
 //         { id: 'child1' }, [
@@ -13,9 +15,30 @@ import ReactDOM from 'react-dom/client';
 //         ])
 // ]
 // )
+// const Title=()=>(
+//     <div id='child'>Title presen here</div>
+// )
+// const HeadingComponent=()=>(
+//     <div id='parent'>
+//         <h1 className='heading'>Namaste React functional component</h1>
+//     </div>
+// )
 
-const jsxHeading=<h1>React Componenet</h1>;
 
+
+
+
+
+
+
+const AppLayout=()=>{
+    return(
+        <div id='app'>
+            <Header/>
+            <Body/>
+        </div>
+    )
+}
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(jsxHeading);
+root.render(<AppLayout/>);
