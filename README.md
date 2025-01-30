@@ -60,3 +60,17 @@ Another thing is module cannnot have multiple default exports
   Normal Js variable - list listofRestaurants    ,Local State Variable-const [listofRestaurants]=useState();
   Whenever state variable is updating/changing react rerenders the components
 -useEffect()
+
+
+
+react.development.js and react.production.js-
+
+
+Feature	                      react.development.js 🛠️	                                    react.production.js 🚀
+
+1.Purpose	            Used for development with extra debugging tools.	       Optimized for production to improve performance.
+2.File Size	              Larger (includes warnings, extra checks).	                    Smaller (minified, optimized).
+3.Performance	           Slower (extra validations, helpful errors).	                  Faster (removes dev-only checks).
+4.Error Messages	         Detailed warnings, prop-type checks, etc.	               Removes most runtime warnings to save space.
+5.Console Logs	             Shows useful debugging logs in the console.	                No logs (errors are minimized).
+6.Usage	                   Use in development mode for better debugging.	           Use in production mode for better performance.

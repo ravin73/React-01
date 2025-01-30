@@ -2,7 +2,7 @@ import { CDN_URL } from "../utils/constant";
 
 const RestaurantCard=(props)=>{
     const {resData} = props;  // destructuring props to get restaurant data directly
-    const {cloudinaryImageId,name,cuisines,costForTwo,avgRating,deliveryTime}=resData?.info
+    const {cloudinaryImageId,name,cuisines,costForTwo,avgRating,sla}=resData?.info
     
     return(
         <div className='res-card'>
@@ -12,7 +12,7 @@ const RestaurantCard=(props)=>{
             <h4>{cuisines.join(", ")}</h4>
             <h4> {costForTwo}</h4>
             <h4>{avgRating} star rating</h4>
-            <h4>{deliveryTime} minutes</h4>
+            <h4>{sla.deliveryTime} minutes</h4>
             </div>
         </div>
     ) 
