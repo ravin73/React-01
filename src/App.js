@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './components/Header';
 import Body from './components/Body';
+
 // const heading = React.createElement("div", { id: "parent" }, [
 //     React.createElement("div",
 //         { id: 'child1' }, [
