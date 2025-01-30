@@ -2,7 +2,7 @@ import { CDN_URL } from "../utils/constant";
 
 const RestaurantCard=(props)=>{
     const {resData} = props;  // destructuring props to get restaurant data directly
-    const {cloudinaryImageId,name,cuisines,costForTwo,avgRating,deliveryTime}=resData?.data
+    const {cloudinaryImageId,name,cuisines,costForTwo,avgRating,sla}=resData?.info
     
     return(
         <div className='res-card'>
