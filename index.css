@@ -24,10 +24,13 @@
     margin-top: 10px;
     cursor: pointer;
 }
-
+.filter{
+    display: flex;
+    justify-content: space-between;
+}
 .res-card {
     width: 250px;
-    background-color: #b7b2b2;
+    background-color: #eae0e0;
     border-radius: 20px;
     margin: 20px;
 }  
@@ -54,6 +57,9 @@
     padding:15px;
     border-radius: 25px 25px 0 0;
 }
+.search{
+    margin-top: 20px ;
+}
 .resto-container{
     display:flex;
     flex-wrap: wrap;
@@ -79,6 +85,11 @@
     100% {
         background-position: 200% 0;
     }
+}
+.btn-login{
+    padding: 0 20px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 

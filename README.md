@@ -55,7 +55,7 @@ export/import  is of two types: 1. Default Exports/import Example: const App=()=
                                 2. Name Export/import  Example: export const App=()=>{}; in this we can import like this: import {App} from "./file";
 Another thing is module cannnot have multiple default exports
 
-#React Hooks -(Normal utility JS functions)
+# React Hooks -(Normal utility JS functions)
 -useState() - It is a state variable because it maintain the state of the components
   Normal Js variable - list listofRestaurants    ,Local State Variable-const [listofRestaurants]=useState();
   Whenever state variable is updating/changing react rerenders the components
@@ -74,3 +74,6 @@ Feature	                      react.development.js 🛠️	                     
 4.Error Messages	         Detailed warnings, prop-type checks, etc.	               Removes most runtime warnings to save space.
 5.Console Logs	             Shows useful debugging logs in the console.	                No logs (errors are minimized).
 6.Usage	                   Use in development mode for better debugging.	           Use in production mode for better performance.
+
+# Two Types of Routing in Web Applications- 1> Client Side Routing 
+#                                           2> Server Side Routing

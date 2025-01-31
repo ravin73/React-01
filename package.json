@@ -2,10 +2,9 @@
   "name": "react-01",
   "version": "1.0.0",
   "description": "this is the react practice food application",
- 
   "scripts": {
-    "start":"parcel index.html",
-    "build":"parcel build index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "keywords": [],
@@ -16,10 +15,11 @@
     "process": "^0.11.10"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router": "^7.1.3"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 Chrome version",
     "last 2 Firefox version"
   ]
