@@ -77,3 +77,12 @@ Feature	                      react.development.js 🛠️	                     
 
 # Two Types of Routing in Web Applications- 1> Client Side Routing 
 #                                           2> Server Side Routing
+
+
+Routing Provider- It will provide routing configuration to the Application.
+useRouteError Hook is provided by React router and it gives you more information about the error in routing.
+Outlet - It renders the children routes in the application 
+
+<Link> component is used in react router dom - it works like <a> tag but it navigating to the other pages in application without reloading the whole page but behind the scenes it uses <a> tag 
+
+useParams in react router - It gives the dynamic routing id in the API

@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './components/Header';
 import Body from './components/Body';
-import About from './components/About';
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router';
 import Contact from './components/Contact';
 import Error from './components/Error';
 import RestaurantMenu from './components/RestaurantMenu';
+import About from './components/About';
 
 
 // const heading = React.createElement("div", { id: "parent" }, [
@@ -58,7 +58,7 @@ const appRouter = createBrowserRouter([
             },
             {
                 path: "/about",
-                element: <About />
+                element: <About/>
             },
             {
                 path: "/contact",
