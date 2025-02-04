@@ -86,3 +86,19 @@ Outlet - It renders the children routes in the application
 <Link> component is used in react router dom - it works like <a> tag but it navigating to the other pages in application without reloading the whole page but behind the scenes it uses <a> tag 
 
 useParams in react router - It gives the dynamic routing id in the API
+
+
+Higher Order Components: Function that takes a component (enhances and add extra features to it) and returns a component.
+Example of Higher Order Components: 
+- export const withPromotedLabel = (RestaurantCard) => {
+    return (props) => {
+        return (
+            <div>
+                <label>Promoted</label>
+                <RestaurantCard  {...props} />    {...props } means (spread operator) that all the props passed that received 
+            </div>
+        )
+    }
+ }
+
+Controlled and Uncontrolled Components--

@@ -12,6 +12,9 @@ const RestaurantMenu = () => {
     }
     const { name, cuisines, costForTwoMessage } = resInfo?.cards[2]?.card?.card?.info || {};
 
+    console.log(resInfo);
+    
+
     return (
         <div className="menu">
             <h1>{name}</h1>

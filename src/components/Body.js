@@ -10,8 +10,8 @@ const Body = () => {
     const [listofRestaurants, setListofRestaurant] = useState([]);
     const [filteredRestaurant, setFilteredRestaurant] = useState([]);
     const [searchText, setSearchText] = useState("");
-    console.log(listofRestaurants);
     
+    // const RestaurantCardPromoted=withPromotedLabel(RestaurantCard);
     useEffect(() => {
         fetchData();
     }, [])
@@ -53,8 +53,9 @@ const Body = () => {
                     <Link key={restaurant.info.id}
                         to={"/restaurants/" + restaurant.info.id}
                         className="no-underline"
-                    >
-                        <RestaurantCard key={restaurant.info.id} resData={restaurant} />
+                    >   
+                    {/* {restaurant.info.promoted ? <RestaurantCardPromoted resData={restaurant}/>:<RestaurantCard resData={restaurant} />} */}
+                        <RestaurantCard  resData={restaurant} />
                     </Link>
                 ))}
             </div>

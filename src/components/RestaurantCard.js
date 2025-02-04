@@ -20,4 +20,16 @@ const RestaurantCard = (props) => {
     )
 }
 
+// Higer Order Components -A Function that takes a component (enhances means adding extra features to it) and returns a component.
+// export const withPromotedLabel = (RestaurantCard) => {
+//     return (props) => {
+//         return (
+//             <div>
+//                 <label>Promoted</label>
+//                 <RestaurantCard  {...props} />
+//             </div>
+//         )
+//     }
+// }
+
 export default RestaurantCard;
