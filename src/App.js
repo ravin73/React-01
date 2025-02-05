@@ -7,10 +7,13 @@ import Contact from './components/Contact';
 import Error from './components/Error';
 import RestaurantMenu from './components/RestaurantMenu';
 import About from './components/About';
-// import Grocery from './components/Grocery';
 
 
-const Grocery=lazy(()=>import('./components/Grocery'));
+// import Grocery from './components/Grocery';  
+
+
+const Grocery=lazy(()=>import('./components/Grocery'));   // Like our primary function of the application is food delivery but there is new feature we want to import is Grocery but this have differenet use case so we use lazy loading 
+// because if we use only file js file it takes high load which is not good for the application so we use code splitting 
 
 
 // const heading = React.createElement("div", { id: "parent" }, [
@@ -85,3 +88,6 @@ const appRouter = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<RouterProvider router={appRouter} />);
+
+
+

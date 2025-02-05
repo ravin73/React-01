@@ -102,3 +102,9 @@ Example of Higher Order Components:
  }
 
 Controlled and Uncontrolled Components--
+
+Controlled Component is controlled the state by the nearest parent component because it managing and controlling the state correctly.
+
+
+
+

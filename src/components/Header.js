@@ -25,6 +25,9 @@ const Header = () => {
                     <li>
                         <Link to={"/contact"}>Contact Us</Link>
                     </li>
+                    <li>
+                        <Link to={"/grocery"}>Grocery</Link>
+                    </li>
                     <li>Cart</li>
                     <button className="p-3 bg-blue-400 rounded-lg flex justify-center -mt-3 items-center" onClick={() => { btnName == 'Login' ? setBtnName('Logout') : setBtnName('Login') }}>{btnName}</button>
                 </ul>
